@@ -62,7 +62,7 @@ ul {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   color: #111018;
   transition: all linear 0.3s;
   position: relative;
@@ -91,11 +91,11 @@ ul {
 }
 
 .sign a {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   color: #111018;
   padding: 14px 50px;
   border: 2px solid #9333EA;
@@ -139,7 +139,7 @@ ul {
   position: relative;
 }
 #banner .banner_text h1 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 64px;
   font-weight: 600;
   line-height: 78px;
@@ -168,7 +168,7 @@ ul {
   z-index: -1;
 }
 #banner .banner_text p {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -179,7 +179,7 @@ ul {
   margin-top: 38px;
 }
 #banner .banner_text a {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -258,7 +258,7 @@ ul {
   margin-top: 63px;
 }
 #banner .banner_text .main_count .ct-text h1 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 35px;
   font-weight: 600;
   line-height: 26px;
@@ -266,7 +266,7 @@ ul {
 }
 #banner .banner_text .main_count .ct-text p {
   margin-top: 10px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -361,7 +361,7 @@ ul {
   padding: 0 0 50px;
 }
 #choose_us .choose_text h1 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -369,7 +369,7 @@ ul {
   color: #9333EA;
 }
 #choose_us .choose_text h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 40px;
   font-weight: 500;
   line-height: 54px;
@@ -392,7 +392,7 @@ ul {
 }
 #choose_us .box_img h4 {
   margin-top: 25px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -402,7 +402,7 @@ ul {
 }
 #choose_us .box_img p {
   margin-top: 20px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -427,7 +427,7 @@ ul {
 }
 #choose_us .box_img2 h4 {
   margin-top: 25px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -437,7 +437,7 @@ ul {
 }
 #choose_us .box_img2 p {
   margin-top: 20px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -462,7 +462,7 @@ ul {
 }
 #choose_us .box_img3 h4 {
   margin-top: 25px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -472,7 +472,7 @@ ul {
 }
 #choose_us .box_img3 p {
   margin-top: 20px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -497,7 +497,7 @@ ul {
 }
 #choose_us .box_img4 h4 {
   margin-top: 25px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -507,7 +507,7 @@ ul {
 }
 #choose_us .box_img4 p {
   margin-top: 20px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -574,7 +574,7 @@ ul {
   margin-top: 30px;
 }
 #about .about_text h1 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -583,7 +583,7 @@ ul {
 }
 #about .about_text h3 {
   margin-top: 25px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 40px;
   font-weight: 500;
   line-height: 54px;
@@ -591,7 +591,7 @@ ul {
   color: #111018;
 }
 #about .about_text p {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -601,7 +601,7 @@ ul {
   margin-top: 20px;
 }
 #about .about_text a {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -641,7 +641,7 @@ ul {
   z-index: 1;
 }
 #our_courses .cours_text .cours_main_text h1 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -649,7 +649,7 @@ ul {
   color: #9333EA;
 }
 #our_courses .cours_text .cours_main_text h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 40px;
   font-weight: 500;
   line-height: 44px;
@@ -658,7 +658,7 @@ ul {
 }
 #our_courses .cours_text .cours_main_text p {
   margin-top: 20px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -672,7 +672,7 @@ ul {
 #our_courses .categories_button ul li {
   cursor: pointer;
   margin-right: 50px;
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -720,14 +720,14 @@ ul {
   color: white;
   padding: 10px 12px;
   border-radius: 8px;
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.3000000119px;
 }
 #our_courses .categories_box .content h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -736,7 +736,7 @@ ul {
   margin-top: 15px;
 }
 #our_courses .categories_box .content p {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -780,7 +780,7 @@ ul {
   z-index: -99999;
 }
 #testimonial .testimonial_text h1 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -788,7 +788,7 @@ ul {
   color: #9333EA;
 }
 #testimonial .testimonial_text h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 40px;
   font-weight: 500;
   line-height: 44px;
@@ -805,7 +805,7 @@ ul {
   filter: drop-shadow(15px 26px 0 #9333EA);
 }
 #testimonial .box_text h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
@@ -816,7 +816,7 @@ ul {
   margin-left: 44px;
 }
 #testimonial .box_text span {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
@@ -827,7 +827,7 @@ ul {
   margin-left: 44px;
 }
 #testimonial .box_text p {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -958,7 +958,7 @@ html {
   margin-bottom: 10px;
 }
 .footer_shap_part .footer_text h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 32px;
   font-weight: 500;
   line-height: 32px;
@@ -968,7 +968,7 @@ html {
   margin-bottom: 30px;
 }
 .footer_shap_part .footer_text p {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -978,7 +978,7 @@ html {
   opacity: 80%;
 }
 .footer_shap_part .foter_item h3 {
-  font-family: -moz- "genare-sans-medium";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-medium";
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -987,7 +987,7 @@ html {
   color: white;
 }
 .footer_shap_part .foter_item ul li a {
-  font-family: -ms- "genare-sans-regular";
+  font-family: -webkit- -moz- -ms- -o- "genare-sans-regular";
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
