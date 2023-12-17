@@ -1,0 +1,189 @@
+@import '../variable/variable';
+
+#banner {
+    margin: 50px 0 50px;
+    .banner_text {
+        position: relative;
+
+        h1 {
+            font-family: $sens-font500;
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 78px;
+            color: $font-color;
+            margin-top: 10px;
+            margin-right: 100px;
+
+            &::after {
+                @include smallshap(0, -78px, 40px, 40px, $secprimary);
+            }
+
+            &::before {
+                @include smallshap(46px, -25px, 20px, 20px, $secprimary);
+            }
+        }
+
+        p {
+            font-family: $sens-font400;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $paragrap;
+            margin-right: 200px;
+            margin-top: 38px;
+        }
+
+        a {
+            font-family: $sens-font500;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            border: 2px solid $primary-color;
+            border-radius: 50px;
+            color: $font-color;
+            margin-top: 34px;
+            transition: all .3s;
+
+            &:nth-child(1) {
+                background: $primary-color;
+                color: white;
+                padding: 16px 50px;
+
+                &:hover {
+                    color: white;
+                    background: #63249e;
+                }
+            }
+
+            &:last-child {
+                padding: 16px 40px;
+                margin-left: 10px;
+            }
+
+            &:hover {
+                background: $primary-color;
+                color: white;
+                fill: white;
+
+                svg {
+                    fill: rgb(255, 255, 255);
+                }
+            }
+
+            svg {
+                fill: $primary-color;
+            }
+        }
+
+        .main_count {
+            .counter_img {
+                margin-top: 60px;
+                width: 294px;
+                height: 60px;
+                .ct_img {
+                    width: 50%;
+                    height: 60px;
+                    position: relative;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        transform: scale(1);
+                        transition: all linear .3s;
+                        cursor: pointer;
+                        animation:  count  1s ease-in-out .10s alternate;
+                        &:Hover{
+                            transform: scale(1.2);
+                        }
+                       @keyframes count {
+                        0%{
+                            transform: scale(1);
+                        }
+                        100%{
+                            transform: scale(1.2);
+                        }
+                       }
+                        &:nth-child(2) {
+                            left: 30%;
+                            animation:  count   .8s ease-in-out alternate;
+                        }
+                        &:nth-child(3) {
+                            left: 60%;
+                            animation:  count infinite .5s ease-in-out alternate;
+                        }
+                    }
+                }
+            }
+            .ct-text {
+                margin-top: 63px;
+
+                h1 {
+                    font-family: $sens-font500;
+                    font-size: 35px;
+                    font-weight: 600;
+                    line-height: 26px;
+                    letter-spacing: 0.30000001192092896px;
+                }
+                p {
+                    margin-top: 10px;
+                    font-family: $sens-font400;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0.30000001192092896px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .right-img {
+        position: relative;
+       .arro_line{
+            position: absolute;
+            left:-75px;
+            bottom: -509px;
+       }
+        .banner_img {
+            right: 20px;
+            width: 454px;
+            height: 506px;
+            border-radius: 20px;
+            background: $secprimary;
+            position: absolute;
+            display: flex;
+            justify-content: end;
+            &::after {
+                @include before(0, 0, 100%, 100%, );
+            }
+            .img {
+                position: absolute;
+                left: 34px;
+                top: -69px;
+                width: 385px;
+                height: 580px;
+            }
+        }
+    }
+}
+// amimation css 
+.anim{
+    position: relative;
+    animation: anim infinite 1s  ease-in-out alternate;
+    &:Hover{
+        animation: none;
+    }
+}
+@keyframes anim {
+    0%{
+        margin-top: 5px;
+    }
+    100%{
+        margin-top:0px;
+    }
+}
+// amimation css 

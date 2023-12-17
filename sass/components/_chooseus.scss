@@ -1,0 +1,181 @@
+@import '../variable/variable';
+@import '../mixin/mix';
+// choose us part start 
+#choose_us {
+    background: hsl(0, 0%, 100%);
+    padding: 80px 0 50px;
+    position: relative;
+    margin-top: 10px;
+    .site_shap {
+        width: 45px;
+        height: 150px;
+        left: 0;
+        top: 80px;
+        position: absolute;
+        display: inline-block;
+    }
+    .choose_text {
+        padding: 0 0 50px;
+        h1 {
+            font-family: $sens-font500;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.30000001192092896px;
+            color: $primary-color;
+        }
+        h3 {
+            font-family: $sens-font500;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: 0.30000001192092896px;
+
+        }
+    }
+    .box_img {
+        box-shadow: 0 17px 15px 0 #00000014;
+        padding: 20px 16px;
+        border-top: 3px solid $primary-color;
+        svg{
+            margin-top: 20px;
+            fill: $primary-color;
+        }
+        &:hover{
+            border-top: 3px solid $primary-color;
+            svg{
+                fill: $primary-color;
+            }
+        }
+        h4 {margin-top: 25px;
+            font-family: $sens-font500;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $font-color;
+        }
+
+        p {margin-top: 20px;
+            font-family: $sens-font400;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $paragrap;
+        }
+    }
+    .box_img2 {
+        box-shadow: 0 17px 15px 0 #00000014;
+        padding: 20px 16px;
+        border-top: 3px solid #FF0069;
+        svg{
+            margin-top: 20px;
+       fill: #FF0069;
+        }
+        &:hover{
+            border-top: 3px solid $primary-color;
+            svg{
+              
+                fill: $primary-color;
+            }
+        }
+        h4 {
+            margin-top: 25px;
+            font-family: $sens-font500;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $font-color;
+        }
+
+        p {
+            margin-top: 20px;
+            font-family: $sens-font400;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $paragrap;
+        }
+    }
+    .box_img3 {
+        box-shadow: 0 17px 15px 0 #00000014;
+        padding: 20px 16px;
+        border-top: 3px solid #FFA800;
+        svg{
+            margin-top: 20px;
+            fill:#FFA800;
+        }
+        &:hover{
+            border-top: 3px solid $primary-color;
+            svg{
+                fill: $primary-color;
+            }
+        }
+        h4 {
+            margin-top: 25px;
+            font-family: $sens-font500;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $font-color;
+        }
+
+        p {
+            margin-top: 20px;
+            font-family: $sens-font400;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color:$paragrap;
+        }
+    }
+    .box_img4 {
+        box-shadow: 0 17px 15px 0 #00000014;
+        padding: 20px 16px;
+        border-top: 3px solid #00FF47;
+        svg{
+            margin-top: 20px;
+            fill: #00FF47;
+        }
+        &:hover{
+            border-top: 3px solid $primary-color;
+            svg{
+                fill: $primary-color;
+            }
+        }
+        h4 {
+            margin-top: 25px;
+            font-family: $sens-font500;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $font-color;
+        }
+
+        p {
+            margin-top: 20px;
+            font-family: $sens-font400;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $paragrap;
+        }
+    }
+}
+
+// choose us part end 

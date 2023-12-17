@@ -1,0 +1,35 @@
+
+@mixin after1($l,$b,$w,$h,$bg){
+    position: absolute;
+    content: '';
+    left: $l;
+    bottom: $b;
+    width: $w;
+    height: $h;
+    background: $bg;
+    transform: scaleX(0);
+    transform-origin:bottom  right;
+    transition:transform .3s ease-out;
+  }
+@mixin before($l,$t,$w,$h,){
+    position: absolute;
+    content: '';
+    left: $l;
+    top: $t;
+    width: $w;
+    height: $h;
+    border: 2px dashed $primary-color;
+    z-index:-1;
+    border-radius: 20px;
+    transform: rotate(-9deg);
+  }
+@mixin smallshap($r,$t,$w,$h,$bg){
+    position: absolute;
+    content: '';
+    right: $r;
+    top: $t;
+    width: $w;
+    height: $h;
+   background:$bg;
+    z-index: -1;
+  }

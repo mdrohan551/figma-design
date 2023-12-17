@@ -1,0 +1,26 @@
+.to-top {
+    width: 40px;
+    height: 40px;
+    background: #9333EA;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 0%;
+    right: 5%;
+    z-index: 9999;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    opacity: 0;
+    transition: all .3s;
+a{
+    font-size: 30px;
+    color: #fff;
+}
+}
+html{
+    scroll-behavior: smooth;
+}
+.active{
+    opacity: 1;
+    bottom: 10%;
+}

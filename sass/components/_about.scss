@@ -1,0 +1,82 @@
+@import '../mixin/mix';
+@import '../variable/variable';
+
+#about {
+    margin: 80px 0;
+    position: relative;
+    .round_line{
+        position: absolute;
+        right: 0;
+        bottom: -84px;
+        z-index: -99999;
+    }
+
+    .about_img {
+        width: 548px;
+        height: 588px;
+        border-radius: 20px;
+        background: $secprimary;
+        position: relative;
+        margin-left: 30px;
+       
+        &::after {
+            @include before(0, 0, 100%, 100%, );
+        }
+        .img {
+            left: 35px;
+            top: -67px;
+            position: absolute;
+            width: 402px;
+            height: 655px;
+            z-index: 2;
+        }
+    }
+    .about_text {
+        margin-top: 30px;
+
+        h1 {
+            font-family: $sens-font500;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.30000001192092896px;
+            color: $primary-color;
+        }
+        h3 {
+            margin-top: 25px;
+            font-family: $sens-font500;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: 0.30000001192092896px;
+            color: $font-color;
+        }
+        p {
+            font-family: $sens-font400;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: $paragrap;
+            margin-top: 20px;
+        }
+        a {
+            font-family: $sens-font500;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: left;
+            color: #fff;
+            padding: 16px 50px;
+            background: $primary-color;
+            margin-top: 40px;
+            border-radius: 50px;
+            transition: all linear .3s;
+            &:hover{
+                background-color: #6A23AA;
+            }
+        }
+    }
+}

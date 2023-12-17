@@ -1,0 +1,66 @@
+@import '../mixin/mix';
+@import '../variable/variable';
+.main_menu {
+    padding: 45px 0 !important;
+    ul {
+        li {
+            padding: 0 25px;
+            a {
+                font-family: General Sans;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+                font-family: $sens-font500;
+                color: $font-color;
+                transition: all linear .3s;
+                position: relative;
+                &::after {
+                    @include after1(0,0,100%,3px,$primary-color);
+                }
+                &:Hover{
+                    color: $primary-color;
+                }
+                &:hover::after{
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+    }
+    .navbar-toggler {
+        svg{
+            fill: $primary-color;
+        }
+    }
+
+}
+
+// manu part end -------------------->
+// sign button 
+.sign a {
+    font-family: $sens-font400;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: $sens-font400;
+    color: $font-color;
+    padding:14px 50px;
+    border: 2px solid $primary-color;
+    transition: all .3s;
+    border-radius: 50px;
+    &:nth-child(2){
+        background: $primary-color;
+        border-radius: 50px;
+        color: white;
+        &:hover{
+            background: #6423a1;
+        }
+    }
+    &:Hover {
+        background: $primary-color;
+        border-radius: 50px;
+        color: white;
+    }
+}
+
+// sign button end

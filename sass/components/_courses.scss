@@ -1,0 +1,134 @@
+@import '../variable/variable';
+@import '../mixin/mix';
+
+#our_courses {
+    padding: 30px 0 80px;
+
+    .cours_text {
+        // margin-top: 40px;
+        z-index: 1;
+
+        .cours_main_text {
+            h1 {
+                font-family: $sens-font500;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0.30000001192092896px;
+                color: $primary-color;
+
+            }
+
+            h3 {
+                font-family: $sens-font500;
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 44px;
+                letter-spacing: 0.30000001192092896px;
+                color: $font-color;
+
+            }
+
+            p {
+                margin-top: 20px;
+                font-family: $sens-font400;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.30000001192092896px;
+                text-align: center;
+                color: $paragrap;
+            }
+        }
+    }
+
+    .categories_button {
+
+        margin: 80px 0 0;
+
+        ul {
+            li {
+                cursor: pointer;
+                margin-right: 50px;
+                font-family: $sens-font400;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.30000001192092896px;
+                color: $font-color;
+                transition: all linear .3s;
+                position: relative;
+
+                &::after {
+                    @include after1(40px, 0, 70%, 3px, $primary-color);
+                }
+
+                &:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+
+                &:hover {
+                    color: $primary-color;
+
+                    path {
+                        color: red;
+                        background: green;
+                    }
+                }
+
+                svg {
+                    margin-right: 10px;
+                }
+
+            }
+        }
+    }
+
+    .categories_box {
+        margin-top: 30px;
+        padding: 16px;
+        box-shadow: 0 0 20px 0 #0000001f;
+
+        .content {
+            margin-top: 20px;
+
+            a {
+                background: $primary-color;
+                color: white;
+                padding: 10px 12px;
+                border-radius: 8px;
+                font-family: $sens-font500;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.30000001192092896px;
+
+
+            }
+
+            h3 {
+                font-family: $sens-font500;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0.30000001192092896px;
+                color: $font-color;
+                margin-top: 15px;
+
+            }
+
+            p {
+                font-family: $sens-font400;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.30000001192092896px;
+                text-align: left;
+                color: $paragrap;
+                margin-top: 10px;
+
+            }
+        }
+    }
+}

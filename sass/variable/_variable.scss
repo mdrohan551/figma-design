@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family:'genare-sans-bold';
+  src: url(/genarel-font/GeneralSans-Bold.otf);
+}
+@font-face {
+  font-family:'genare-sans-medium';
+  src: url(/genarel-font/GeneralSans-Medium.otf);
+}
+@font-face {
+  font-family:'genare-sans-regular';
+  src: url(/genarel-font/GeneralSans-Regular.otf);
+}
+@font-face {
+  font-family:'genare-sans-semibold';
+  src: url(/genarel-font/GeneralSans-Semibold.otf);
+}
+$primary-color: #9333EA;
+$secprimary: rgba(232, 230, 255, 1);
+$font-color:#111018;
+$paragrap: #4F4E55;
+
+$sens-font600:'genare-sans-bold';
+$sens-font500:'genare-sans-medium';
+$sens-font400:'genare-sans-regular';
+$sens-font700:'genare-sans-semibold';
+
