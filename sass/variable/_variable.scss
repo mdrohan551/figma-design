@@ -21,8 +21,8 @@ $secprimary: rgba(232, 230, 255, 1);
 $font-color:#111018;
 $paragrap: #4F4E55;
 
-$sens-font600:'genare-sans-bold';
-$sens-font500:'genare-sans-medium';
-$sens-font400:'genare-sans-regular';
-$sens-font700:'genare-sans-semibold';
+$sens-font600:   -webkit- 'genare-sans-bold' ;
+$sens-font500:   -moz- 'genare-sans-medium' ;
+$sens-font400:   -ms- 'genare-sans-regular' ;
+$sens-font700:   -o- 'genare-sans-semibold' ;
 
