@@ -31,44 +31,7 @@ window.onload = function () {
   });
 // slider 
     });
-ScrollReveal().reveal('.right-img', {
-   origin: 'right',
-   reset:true,
-   distance: '10px',
-});
-ScrollReveal().reveal('.revel_inm', { 
-  origin: 'left',
-  reset:true,
-  distance: '60px',
-});
-ScrollReveal().reveal('.about_img', { 
-  delay: 500 ,
-  origin: 'left',
-  reset:true,
-  distance: '60px',
-  delay:500
-});
-ScrollReveal().reveal('.about_text', { 
-  delay: 500 ,
-  origin: 'right',
-  reset:true,
-  distance: '60px',
-  delay:500
-});
-ScrollReveal().reveal('.scaleUp', { 
-  scale: 0.85,
-    origin: 'bottom',
-  reset:true,
-  distance: '60px',
-  delay:500
- });
-ScrollReveal().reveal('.footer', { 
-  scale: 0.85,
-    origin: 'bottom',
-  reset:true,
-  distance: '60px',
-  delay:500
- });
+
 // scroll top button 
 const toTop = document.querySelector(".to-top");
 
